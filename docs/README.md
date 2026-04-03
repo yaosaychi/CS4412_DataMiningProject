@@ -16,6 +16,7 @@ co-purchasing patterns among herb marker products, with confidence values exceed
 indicating highly structured and intentional purchasing behavior
 among customers.Module three would involve clustering algorithms and other findings from the use of fp-growth algorithm
 
+
 ## Dataset
 The dataset used in this project is the **Online Retail Dataset** provided by the UCI Machine Learning Repository.
 
