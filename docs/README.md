@@ -53,7 +53,7 @@ D. Chen. "Online Retail," UCI Machine Learning Repository, 2015. [Online]. Avail
     * Download the `organized data notebook` file from the /notebookFiles folder directory.
     * In the CoLab interface, Click `File`.
     * In the drop down menu, select `Upload Notebook`.
-    * In cell 2 with the comment "Paste Copied Instruction Here If Using Google CoLab", copy and paste the following instruction: \n
+    * In cell 2 with the comment "Paste Copied Instruction Here If Using Google CoLab", copy and paste the following instruction: <br>
             !pip install ucimlrepo
     * On the top-right section on the CoLab interface, select `Connect`.
     * Wait for the on-screen actions to complete then select `Run all`.
