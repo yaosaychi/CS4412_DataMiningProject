@@ -41,6 +41,8 @@ D. Chen. "Online Retail," UCI Machine Learning Repository, 2015. [Online]. Avail
 
 ## Requirements.
 * Computer or Laptop with `PyCharm` installed and running.
+  <br> OR <br>
+* Computer or Laptop with internet access to `Google CoLab` online platform.
 
 ## How To Run 
 * For a simple and straight forward implementation:
