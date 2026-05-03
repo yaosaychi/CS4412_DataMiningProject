@@ -29,6 +29,9 @@ For anomaly detection, DBSCAN and Local Outlier Factor (LOF) identify a small se
 
 Seasonal analysis maps transactions to seasons and customer segments, computing per-season revenue and invoice counts for each segment. All segments peak in the autumn, with about half of Champions' purchases ocurring in that season and overall transaction volume increasing from September through November, revealing a pronounced and shared seasonal purchasing pattern across the customer base.
 
+## Module 4 updates.
+
+
 
 ## Dataset
 The dataset used in this project is the **Online Retail Dataset** provided by the UCI Machine Learning Repository.
@@ -36,9 +39,30 @@ The dataset used in this project is the **Online Retail Dataset** provided by th
 Dataset Source: https://archive.ics.uci.edu/dataset/352/online+retail
 D. Chen. "Online Retail," UCI Machine Learning Repository, 2015. [Online]. Available: https://doi.org/10.24432/C5BW33.
 
-## How To Run 
-Download the file from the notebook files folder.
-Open in pycharm jupyter notebook or Google Colab.
-Select Run all.
+## Requirements.
+* Computer or Laptop with `PyCharm` installed and running.
 
+## How To Run 
+* For a simple and straight forward implementation:
+    * Download the `organized data notebook` file from the /notebookFiles folder directory.
+    * Open the file in Pycharm in a jupyter notebook environment.
+    * Select Run all at the top of the jupyter notebook interface (double play icon).
+    * Results should then populate the output interface.
+
+* To run in Google CoLab: 
+    * Download the `organized data notebook` file from the /notebookFiles folder directory.
+    * In the CoLab interface, Click `File`.
+    * In the drop down menu, select `Upload Notebook`.
+    * In cell 2 with the comment "Paste Copied Instruction Here If Using Google CoLab", copy and paste the following instruction:
+            !pip install ucimlrepo
+    * On the top-right section on the CoLab interface, select `Connect`.
+    * Wait for the on-screen actions to complete then select `Run all`.
+    * Results should then populate the output interface.
+
+## Reproducability Instructions.
+* Set throughout all random_state = `42`.
+* For K-Means: n_clusters=4, random_state=42, n_init=10.
+* For DBSCAN intialization values: eps=0.5, min_samples=5.
+* For LOCALOUTLIERFACTOR initialization values: n_neighbors=20, contamination=0.05.
+  
 
