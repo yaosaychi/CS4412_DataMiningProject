@@ -27,7 +27,7 @@ Using the cluster assignments as labels, a Decision Tree and Gaussian Naïve Bay
 
 For anomaly detection, DBSCAN and Local Outlier Factor (LOF) identify a small set of customers with unusual purchasing behavior: DBSCAN flags around 52 noise points (about 1.3% of customers), while LOF marks roughly 5% as anomalous, with both methods agreeing on approximately 38 anomalous customers. These anomalies occur across all segments but are concentrated in the At-Risk and New/Occasional groups, and customers with unusually high Monetary values relative to peers are especially likely to be marked as anomalies.
 
-Seasonal analysis maps transactions to seasons and customer segments, computing per-season revenue and invoice counts for each segment. All segments peak in the autumn, with Champions responsible for about half of purchases in that season and overall transaction volume increasing from September through November, revealing a pronounced and shared seasonal purchasing pattern across the customer base.
+Seasonal analysis maps transactions to seasons and customer segments, computing per-season revenue and invoice counts for each segment. All segments peak in the autumn, with about half of Champions' purchases ocurring in that season and overall transaction volume increasing from September through November, revealing a pronounced and shared seasonal purchasing pattern across the customer base.
 
 
 ## Dataset
@@ -35,3 +35,10 @@ The dataset used in this project is the **Online Retail Dataset** provided by th
 
 Dataset Source: https://archive.ics.uci.edu/dataset/352/online+retail
 D. Chen. "Online Retail," UCI Machine Learning Repository, 2015. [Online]. Available: https://doi.org/10.24432/C5BW33.
+
+## How To Run 
+Download the file from the notebook files folder.
+Open in pycharm jupyter notebook or Google Colab.
+Select Run all.
+
+
